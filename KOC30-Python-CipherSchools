@@ -1,1 +1,300 @@
 Print("Harish")
+
+a ='a'
+type(a)
+str
+isinstance('a',str)
+True
+isinstance('a',int)
+False
+isinstance(print,object)
+True
+a = 5
+
+print(id(a))
+11126816
+
+print(hex(id(a)))
+0xa9c820
+
+print(a)
+5
+
+a = 'aaaaa'
+print(id(a))
+140359330093872
+
+b = 'aaaaa'
+print(id(b))
+140359330093872
+
+a = 2345678987654567890
+print(a+1)
+2345678987654567891
+
+print(1, 2, 3, "Harish", 3.4, 1 + 3j)
+1 2 3 Harish 3.4 (1+3j)
+
+print("hello")
+print("world :")
+hello
+world :
+
+print("hello", end=";")
+print("world :")
+hello;world :
+
+print(1, 2, 3, "kamal", 3.4, 1 + 3j, sep=",")
+1,2,3,kamal,3.4,(1+3j)
+
+a = input()
+gfd
+
+print(a)
+gfd
+
+type(a)
+str
+a = 15
+str(a)
+'15'
+int('123')
+123
+float('1.9')
+1.9
+1 + 2
+3
+2 - 1
+1
+1 / 3
+0.3333333333333333
+5 // 2
+2
+2 * 3
+6
+2 ** 3
+8
+10 % 4
+2
+1 == 1
+True
+1 != 2
+True
+1 < 2
+True
+1 > 2
+False
+1 <= 2
+True
+1 >= 2
+False
+"a" < "x"
+True
+"a" < "A"
+False
+True and False
+False
+True or False
+True
+True and 1
+1
+1 or 0
+1
+1 and 5
+5
+"" and 4
+''
+1.9 and ""
+''
+"" or 6
+6
+5 or ""
+5
+[82]
+a = 5
+
+if a == 3:
+  print("3")
+elif a == 5:
+  print("5")
+else:
+  print("3 or 5")
+5
+
+[93]
+a = 1
+while a < 10:
+  print(a)
+  a += 1
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+[97]
+name = "Harish"
+[99]
+name._iter_
+<method-wrapper '_iter_' of str object at 0x7fa7e565ee70>
+[100]
+print(type(name))
+for c in name:
+    print(c)
+    print(type(c))
+<class 'str'>
+H
+<class 'str'>
+a
+<class 'str'>
+r
+<class 'str'>
+i
+<class 'str'>
+s
+<class 'str'>
+h
+<class 'str'>
+
+[101]
+for i in range(9):
+  print(i)
+0
+1
+2
+3
+4
+5
+6
+7
+8
+
+[104]
+a = range(9)
+[105]
+a
+range(0, 9)
+[106]
+a._iter_
+<method-wrapper '_iter_' of range object at 0x7fa7e588d930>
+[107]
+"aaaa" * 4
+'aaaaaaaaaaaaaaaa'
+[118]
+for i in range(5):
+  print(i)
+  if i == 3:
+       break
+0
+1
+2
+3
+
+[120]
+for i in range(5):
+  print(i)
+  i = 100
+  print(i)
+0
+100
+1
+100
+2
+100
+3
+100
+4
+100
+
+[123]
+if True:
+  pass
+print("rest of the code")
+rest of the code
+
+[125]
+for i in range(5):
+  print(i)
+  if i == 3:
+    break
+else:
+  print("end")
+0
+1
+2
+3
+
+[127]
+n = 5
+[136]
+max(1, 2, 3, 4, 5)
+5
+[147]
+n = 5
+for i in range(n):
+  for j in range(n):
+     print(max(i+1, j+1, n-i, n-j), end = " ")
+  print()
+5 5 5 5 5 
+5 4 4 4 5 
+5 4 3 4 5 
+5 4 4 4 5 
+5 5 5 5 5 
+
+[144]
+n = 5
+for i in range(n):
+  for j in range(n):
+     print(min(i, j), end = " ")
+  print()
+0 0 0 0 0 
+0 1 1 1 1 
+0 1 2 2 2 
+0 1 2 3 3 
+0 1 2 3 4 
+
+[149]
+n = 5
+for i in range(n):
+  for j in range(n):
+     print((n-i-1), end = " ")
+  print()
+4 4 4 4 4 
+3 3 3 3 3 
+2 2 2 2 2 
+1 1 1 1 1 
+0 0 0 0 0 
+
+[150]
+n = 5
+for i in range(n):
+  for j in range(n):
+     print((n-j-1), end = " ")
+  print()
+4 3 2 1 0 
+4 3 2 1 0 
+4 3 2 1 0 
+4 3 2 1 0 
+4 3 2 1 0 
+
+[152]
+n = 5
+for i in range(n):
+  for j in range(n):
+     print(
+           max(max(i+1 ,j+1), max(n-j, n-i)
+     ), end = " ")
+  print()
+5 5 5 5 5 
+5 4 4 4 5 
+5 4 3 4 5 
+5 4 4 4 5 
+5 5 5 5 5 
+
+[153]
+sum([1, 2, 3, 4, 5, 6, 7, 8, 0])
+36
